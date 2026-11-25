@@ -1,0 +1,27 @@
+# --- 缓存与产物 ---
+__pycache__/
+*.py[cod]
+*.log
+cache*/
+data/
+out/
+paper/
+reports/
+logs/
+
+# --- 本机环境与密钥 ---
+env/machine.*
+config.json
+*.token
+*_token*
+.env
+
+# --- 研究资产：绝不进仓库 ---
+factor_lib/
+*_alpha*.txt
+*.csv
+
+# --- 编辑器 ---
+.vscode/
+.idea/
+.DS_Store
